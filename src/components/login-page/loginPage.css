@@ -1,0 +1,80 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container{
+    height: 80px;
+}
+h1
+{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(103, 154, 196);
+
+}
+.loginControl{
+    text-align: center;
+    margin: 50px;
+}
+input{
+    height: 20px;
+    width: 300px;
+    margin: 8px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    background-color: rgb(103, 154, 196);
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:  95%;
+    height: 80%;
+    margin: 8px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: rgb(131, 190, 241);
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:  95%;
+    height: 70%;
+    margin: 8px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+}
+form{
+    border: 1px solid rgb(216, 225, 233);
+    background-color: rgb(216, 225, 233);
+    border-radius: 8px;
+    height: 400px;
+    
+}
+
+.error {
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    top: -16px;
+    left: 10px;
+    color: red;
+    margin: 0;
+}
